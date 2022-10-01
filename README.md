@@ -1,21 +1,16 @@
 # Maze_Game_Rust
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
 
-{Provide a description the software that you wrote to demonstrate the Rust language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
+For learning Rust, I decided to recreate a maze game that can be played in the console. It is a simple framework of a game that can allow the creation of new maps with relative ease. The board is stored as a vector of strings. The player moves around through these different strings in order to reach the end. The program works by first having the user input a direction on the keyboard. It then checks if that new location has an empty character there. If so, the game will move the player over and erases the player’s old position from the board. If there is any other character in the way, the player is not allowed to move there. This allows the programmer to customize how they want the map to look like and what characters to use to represent walls. 
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used Visual Studio Code to write this program.
 
-{Describe the programming language that you used and any libraries.}
+I used only the basic libraries that come with Rust. No extra libraries were required for this program. 
 
 # Useful Websites
 
